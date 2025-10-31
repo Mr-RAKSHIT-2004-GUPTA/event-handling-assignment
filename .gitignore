@@ -1,0 +1,79 @@
+
+# ---> Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---> Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+*.py~ 
+*.mo
+*.pot
+
+# Media and static files
+/media/
+staticfiles/
+static/
+
+# Django secrets
+.env
+.env.local
+*.secret_key
+config/settings/local.py
+
+# ---> Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+env.bak/
+
+# ---> IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ---> OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ---> Pytest / Coverage
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+htmlcov/
+
+# ---> Migrations cache
+*/migrations/__pycache__/
+*/migrations/*.pyc
+*/migrations/*.pyo
+
+# ---> Byte-compiled / optimized / DLL files
+*.so
+*.dll
+*.dylib
+
+# ---> Backup files
+*.bak
+*.swp
+*.tmp
+*.old
+
+# ---> MyPy
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# ---> PyCharm
+__pycache__/
+.idea/
+*.iml
